@@ -5,7 +5,7 @@ import { HeaderContainer } from './styles'
 export const Header = () => {
   return (
     <HeaderContainer>
-      <span>Logo</span>
+      <span>Pomodoro</span>
       <nav>
         <NavLink to="/" title="Timer">
           <Timer size={24} />
